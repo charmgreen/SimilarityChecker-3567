@@ -16,6 +16,11 @@ public:
 					number /= 2;
 				}
 			}
+			else if (number == 6)
+			{
+				res.push_back(2);
+				res.push_back(3);
+			}
 			else {
 				res.push_back(number);
 			}
