@@ -30,3 +30,4 @@ TEST_F(BaseballFixture, ReturnSolvedResultIfMatchedNumber) {
 	EXPECT_EQ(3, result.strikes);
 	EXPECT_EQ(0, result.balls);
 }
+
