@@ -30,16 +30,18 @@ public:
 			{
 				if (guessNumber[i] == question[i])
 					strike++;
-				for (int j = 0; j < 3; j++)
+				else 
 				{
-					if (i == j) continue;
-					if (guessNumber[i] == question[j])
-						ball++;
+					for (int j = 0; j < 3; j++)
+					{
+						if (i == j) continue;
+						if (guessNumber[i] == question[j])
+							ball++;
+					}
 				}
 			}
 			return { false, strike, ball };
 		}
-		return { false, 0, 0 };
 	}
 
 	void assertIligalArgument(const std::string& guessNumber)
