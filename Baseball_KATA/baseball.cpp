@@ -5,15 +5,20 @@ using namespace std;
 class Baseball
 {
 public:
-	void guess(const string& str)
+	void guess(const string& guessNumber)
 	{
-		if (str.length() != 3)
+		if (guessNumber.length() != 3)
 			throw length_error("Must be three letters");
 
-		for (char ch : str)
+		for (char ch : guessNumber)
 		{
 			if (!('0' < ch && ch < '9'))
 				throw invalid_argument("Must be number");
 		}
+
+		if (guessNumber[0] == guessNumber[1] ||
+			guessNumber[1] == guessNumber[2] ||
+			guessNumber[2] == guessNumber[0])
+			throw invalid_argument("Must not have the same number");
 	}
 };
