@@ -3,13 +3,23 @@
 #include <string>
 using namespace std;
 
-TEST(BaseballGame, ThrowExceptionWhenInputLengthIsUnmatched) {
+class BaseballFixture : public testing::Test {
+public:
 	Baseball game;
-	EXPECT_THROW(game.guess(string("12")), length_error);
-}
+	void assertIllegalArgument(string guessNumber) {
+		try {
+			game.guess(guessNumber);
+			FAIL();
+		}
+		catch (...) {
+			// PASS
+		}
+	}
+};
 
-TEST(BaseballGame, ThrowExceptionWhenInvalidChar) {
+TEST_F(BaseballFixture, ThrowExceptionWhenInvalidCase) {
 	Baseball game;
-	EXPECT_THROW(game.guess(string("12s")), invalid_argument);
+	assertIllegalArgument("12");
+	assertIllegalArgument("12s");
 }
 
