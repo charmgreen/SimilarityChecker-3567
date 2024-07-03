@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExceptionPractice1", "ExceptionPractice1\ExceptionPractice1.vcxproj", "{01C0F5A8-2A02-47E3-88DF-6AC78933AED0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -58,6 +60,14 @@ Global
 		{04837AE8-8BB1-46DB-BD06-4D09B48E5289}.Release|x64.Build.0 = Release|x64
 		{04837AE8-8BB1-46DB-BD06-4D09B48E5289}.Release|x86.ActiveCfg = Release|Win32
 		{04837AE8-8BB1-46DB-BD06-4D09B48E5289}.Release|x86.Build.0 = Release|Win32
+		{01C0F5A8-2A02-47E3-88DF-6AC78933AED0}.Debug|x64.ActiveCfg = Debug|x64
+		{01C0F5A8-2A02-47E3-88DF-6AC78933AED0}.Debug|x64.Build.0 = Debug|x64
+		{01C0F5A8-2A02-47E3-88DF-6AC78933AED0}.Debug|x86.ActiveCfg = Debug|Win32
+		{01C0F5A8-2A02-47E3-88DF-6AC78933AED0}.Debug|x86.Build.0 = Debug|Win32
+		{01C0F5A8-2A02-47E3-88DF-6AC78933AED0}.Release|x64.ActiveCfg = Release|x64
+		{01C0F5A8-2A02-47E3-88DF-6AC78933AED0}.Release|x64.Build.0 = Release|x64
+		{01C0F5A8-2A02-47E3-88DF-6AC78933AED0}.Release|x86.ActiveCfg = Release|Win32
+		{01C0F5A8-2A02-47E3-88DF-6AC78933AED0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

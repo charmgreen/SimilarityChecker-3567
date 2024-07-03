@@ -396,3 +396,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+Bank_KATA/
+Bank_Test/
+PrimeFactors_KATA/
+PrimeFactors_Test/
+ExceptionPractice1/
