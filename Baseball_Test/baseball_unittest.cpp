@@ -31,7 +31,7 @@ TEST_F(BaseballFixture, ReturnSolvedResultIfMatchedNumber) {
 	EXPECT_EQ(0, result.balls);
 }
 
-TEST_F(BaseballFixture, Return2Strike1Ball) {
+TEST_F(BaseballFixture, Return2Strike0Ball) {
 	GuessResult result = game.guess("923");
 
 	EXPECT_TRUE(!result.solved);

@@ -24,7 +24,13 @@ public:
 		}
 		else
 		{
-			return { false, 2, 0 };
+			int strike = 0;
+			for (int i = 0; i < 3; i++)
+			{
+				if (guessNumber[i] == question[i])
+					strike++;
+			}
+			return { false, strike, 0 };
 		}
 		return { false, 0, 0 };
 	}
