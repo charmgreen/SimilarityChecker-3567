@@ -7,8 +7,7 @@ public:
 	vector<int> of(int number)
 	{
 		vector<int> res = {};
-		if (number == 2) res.push_back(2);
-		if (number == 3) res.push_back(3);
+		if (number > 1) res.push_back(number);
 		return res;
 	}
 };
