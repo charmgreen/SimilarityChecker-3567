@@ -28,6 +28,11 @@ public:
 					}
 				}
 			}
+			else if (number == 9)
+			{
+				res.push_back(3);
+				res.push_back(3);
+			}
 			else {
 				res.push_back(number);
 			}
