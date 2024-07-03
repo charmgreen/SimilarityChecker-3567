@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bank_KATA", "Bank_KATA\Bank_KATA.vcxproj", "{6248820D-B14C-458A-9B9C-DAF9C2C94C27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bank_Test", "Bank_Test\Bank_Test.vcxproj", "{90B541EE-9B50-4864-89C3-132DE06F94A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrimeFactors_KATA", "PrimeFactors_KATA\PrimeFactors_KATA.vcxproj", "{7CC85F6C-D139-4562-B942-98E3DE109812}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrimeFactors_Test", "PrimeFactors_Test\PrimeFactors_Test.vcxproj", "{04837AE8-8BB1-46DB-BD06-4D09B48E5289}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{6CE3155D-C1B7-4151-B68E-6D5C13357B3A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6248820D-B14C-458A-9B9C-DAF9C2C94C27}.Debug|x64.ActiveCfg = Debug|x64
+		{6248820D-B14C-458A-9B9C-DAF9C2C94C27}.Debug|x64.Build.0 = Debug|x64
+		{6248820D-B14C-458A-9B9C-DAF9C2C94C27}.Debug|x86.ActiveCfg = Debug|Win32
+		{6248820D-B14C-458A-9B9C-DAF9C2C94C27}.Debug|x86.Build.0 = Debug|Win32
+		{6248820D-B14C-458A-9B9C-DAF9C2C94C27}.Release|x64.ActiveCfg = Release|x64
+		{6248820D-B14C-458A-9B9C-DAF9C2C94C27}.Release|x64.Build.0 = Release|x64
+		{6248820D-B14C-458A-9B9C-DAF9C2C94C27}.Release|x86.ActiveCfg = Release|Win32
+		{6248820D-B14C-458A-9B9C-DAF9C2C94C27}.Release|x86.Build.0 = Release|Win32
+		{90B541EE-9B50-4864-89C3-132DE06F94A4}.Debug|x64.ActiveCfg = Debug|x64
+		{90B541EE-9B50-4864-89C3-132DE06F94A4}.Debug|x64.Build.0 = Debug|x64
+		{90B541EE-9B50-4864-89C3-132DE06F94A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{90B541EE-9B50-4864-89C3-132DE06F94A4}.Debug|x86.Build.0 = Debug|Win32
+		{90B541EE-9B50-4864-89C3-132DE06F94A4}.Release|x64.ActiveCfg = Release|x64
+		{90B541EE-9B50-4864-89C3-132DE06F94A4}.Release|x64.Build.0 = Release|x64
+		{90B541EE-9B50-4864-89C3-132DE06F94A4}.Release|x86.ActiveCfg = Release|Win32
+		{90B541EE-9B50-4864-89C3-132DE06F94A4}.Release|x86.Build.0 = Release|Win32
+		{7CC85F6C-D139-4562-B942-98E3DE109812}.Debug|x64.ActiveCfg = Debug|x64
+		{7CC85F6C-D139-4562-B942-98E3DE109812}.Debug|x64.Build.0 = Debug|x64
+		{7CC85F6C-D139-4562-B942-98E3DE109812}.Debug|x86.ActiveCfg = Debug|Win32
+		{7CC85F6C-D139-4562-B942-98E3DE109812}.Debug|x86.Build.0 = Debug|Win32
+		{7CC85F6C-D139-4562-B942-98E3DE109812}.Release|x64.ActiveCfg = Release|x64
+		{7CC85F6C-D139-4562-B942-98E3DE109812}.Release|x64.Build.0 = Release|x64
+		{7CC85F6C-D139-4562-B942-98E3DE109812}.Release|x86.ActiveCfg = Release|Win32
+		{7CC85F6C-D139-4562-B942-98E3DE109812}.Release|x86.Build.0 = Release|Win32
+		{04837AE8-8BB1-46DB-BD06-4D09B48E5289}.Debug|x64.ActiveCfg = Debug|x64
+		{04837AE8-8BB1-46DB-BD06-4D09B48E5289}.Debug|x64.Build.0 = Debug|x64
+		{04837AE8-8BB1-46DB-BD06-4D09B48E5289}.Debug|x86.ActiveCfg = Debug|Win32
+		{04837AE8-8BB1-46DB-BD06-4D09B48E5289}.Debug|x86.Build.0 = Debug|Win32
+		{04837AE8-8BB1-46DB-BD06-4D09B48E5289}.Release|x64.ActiveCfg = Release|x64
+		{04837AE8-8BB1-46DB-BD06-4D09B48E5289}.Release|x64.Build.0 = Release|x64
+		{04837AE8-8BB1-46DB-BD06-4D09B48E5289}.Release|x86.ActiveCfg = Release|Win32
+		{04837AE8-8BB1-46DB-BD06-4D09B48E5289}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEDAAA0F-F7BC-4F01-B940-29F046ADFB48}
+	EndGlobalSection
+EndGlobal
