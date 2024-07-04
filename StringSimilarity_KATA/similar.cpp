@@ -6,30 +6,32 @@ class StringSimilarity
 public:
 	int getLengthScore(string s1, string s2)
 	{
-		if (s1.length() == s2.length())
-			return 60;
-		else if (s1.length() >= s2.length() * 2
-			|| s1.length() * 2 <= s2.length())
-		{
-			return 0;
-		}
-		else
-		{
-			int B = 0;
-			int A = 0;
-			if (s1.length() < s2.length())
-			{
-				B = s1.length();
-				A = s2.length();
-			}
-			else 
-			{
-				A = s1.length();
-				B = s2.length();
-			}
+		if (isSameLength(s1, s2)) return MAX_LENGTH_SCORE;
+		if (isDoubleGapLength(s1, s2)) return MIN_LENGTH_SCORE;
 
-			int score = (1 - (double)(A - B) / B) * 60;
-			return score;
-		}
+		int longLen = getLongLength(s1, s2);
+		int shortLen = getShortLength(s1, s2);
+		int score = MAX_LENGTH_SCORE - MAX_LENGTH_SCORE * (longLen - shortLen) / shortLen;
+		return score;
 	}
+private:
+	bool isSameLength(string str1, string str2) {
+		return (str1.length() == str2.length());
+	}
+
+	bool isDoubleGapLength(string str1, string str2) {
+		return (str1.length() >= str2.length() * 2
+			|| str1.length() * 2 <= str2.length());
+	}
+
+	int getLongLength(string str1, string str2) {
+		return (str1.length() > str2.length()) ? str1.length() : str2.length();
+	}
+
+	int getShortLength(string str1, string str2) {
+		return (str1.length() < str2.length()) ? str1.length() : str2.length();
+	}
+
+	const int MAX_LENGTH_SCORE = 60;
+	const int MIN_LENGTH_SCORE = 0;
 };
